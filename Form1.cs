@@ -113,7 +113,7 @@ namespace RockPaperScissors
         private string read()
         {
             if (read_hand) return ""; //If already have been read, then exit
-            try //если <50 мс
+            try //if <50 ms
             {
                 string text;
                 text = reader.ReadLine();
